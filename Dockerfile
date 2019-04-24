@@ -28,7 +28,7 @@ RUN echo "Installing FastQC app" && \
     echo "Installing multiqc app" && \
     scif install /opt/multiqc_v1.4_centos7.scif && \
     echo "Installing Unicycler app" && \
-    scif install /opt/unicycler_v0.4.7_centos7.scif \
+    scif install /opt/unicycler_v0.4.7_centos7.scif && \
     echo "Installing Taranis app" && \
     scif install /opt/taranis_v0.3.3_centos7.scif
 
